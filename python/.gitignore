@@ -1,0 +1,6 @@
+__pycachce__/
+.pytest_cache
+dist/
+pip-log.txt
+*.pyc
+
