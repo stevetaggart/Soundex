@@ -1,0 +1,28 @@
+{
+  "name": "soundex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha \".{/,!(node_modules)/**}/*spec.ts\"",
+    "lint": "prettier --config .prettierrc --ignore-path .prettierignore --check .",
+    "lint:fix": "prettier --config .prettierrc --ignore-path .prettierignore --write ."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.28",
+    "chai": "^4.3.0",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "mocha": "^8.3.0",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  }
+}
